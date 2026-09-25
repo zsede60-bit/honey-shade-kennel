@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<section class="section"><div class="form"><h2>Kapcsolat</h2><p><b>E-mail:</b> {{site_email}}</p>{% if site_phone %}<p><b>Telefon:</b> {{site_phone}}</p>{% endif %}{% if site_address %}<p><b>Cím:</b> {{site_address}}</p>{% endif %}</div></section>{% endblock %}

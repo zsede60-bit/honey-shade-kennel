@@ -1,0 +1,1 @@
+document.querySelectorAll("[data-lightbox]").forEach(i=>i.addEventListener("click",()=>window.open(i.src,"_blank")));
